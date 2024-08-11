@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kode Rahasia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kode rahasia kelas <br>XI-6</h1>
+        <div class="form-group">
+            <label for="text">Masukkan Sandi:</label>
+            <textarea id="text" placeholder="Masukkan Sandi anda"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="shift">Shift Value:</label>
+            <input type="number" id="shift" value="3">
+        </div>
+        <div class="form-group">
+            <label for="action">Action:</label>
+            <select id="action">
+                <option value="encrypt">Buat</option>
+                <option value="decrypt">Pecahkan</option>
+            </select>
+        </div>
+        <button id="translate-btn">Ubah</button>
+        <div class="result">
+            <h2>Hasil:</h2>
+            <p id="result-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
